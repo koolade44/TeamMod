@@ -16,4 +16,4 @@ SightlySteam130 - Assistant Developer
 Testers/ideas
 ---------------
 StaberTooth - Tester and debuger <br><br>
-\*If you use this in a youtube video please give credit
+\*If you use this in a youtube video please give credit to the above
