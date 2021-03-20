@@ -13,7 +13,7 @@ Developers
 Koolade446 - Lead developer <br>
 SightlySteam130 - Assistant Developer
 
-Testers/ideas
+Testers/Debugers
 ---------------
 StaberTooth - Tester and debuger <br><br>
 \*If you use this in a youtube video please give credit to the above
