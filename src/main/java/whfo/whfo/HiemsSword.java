@@ -22,7 +22,7 @@ public class HiemsSword extends SwordItem {
 
             @Override
             public float getAttackDamage() {
-                return 9;
+                return 10;
             }
 
             @Override
@@ -44,7 +44,7 @@ public class HiemsSword extends SwordItem {
 
     @Override
     public boolean hitEntity(ItemStack item, LivingEntity target, LivingEntity attacker) {
-        target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 10, 7));
+        target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 60, 10));
         return true;
     }
 }
