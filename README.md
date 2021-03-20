@@ -1,5 +1,5 @@
 # TeamMod
-### Please Read the licsence. You are allowed to use this in your modpack or youtube video\*. You are not allowed to redistribute or tamper with it. (You cand download the code and make edits FOR PERSONAL USE ONLY)
+### Please Read the licsence. You are allowed to use this in your modpack or youtube video\*. You are not allowed to redistribute or tamper with it. (You can download the code and make edits FOR PERSONAL USE ONLY)
 <br><br>
 ## Meet The team:
 
