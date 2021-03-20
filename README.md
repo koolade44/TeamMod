@@ -1,7 +1,7 @@
 # When Hell Freezes Over (WHFO)
 ### Please Read the licsence. You are allowed to use this in your modpack or youtube video\*. You are not allowed to redistribute or tamper with it. (You can download the code and make edits FOR PERSONAL USE ONLY)
 <br><br>
-If you are not fermilliar with GitHub you can access the source code by clicking the dropdown in the top left that says "main" and selecting "master"
+If you are not fermilliar with GitHub you can access the source code by clicking the dropdown in the top left that says "main" and selecting "master"<br><br>
 ## Meet The team:
 
 Art Crew
