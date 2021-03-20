@@ -15,4 +15,4 @@ SightlySteam130 - Assistand Developer
 
 Testers/ideas
 ---------------
-StaberTooth <br>
+StaberTooth - Tester and debuger <br>
