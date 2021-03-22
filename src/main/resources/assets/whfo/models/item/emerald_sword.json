@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "whfo:item/sozanas_sword"
+    "layer0": "whfo:item/emerald_sword"
   }
 }

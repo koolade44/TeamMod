@@ -1,11 +1,11 @@
 package whfo.whfo;
 
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import org.lwjgl.system.CallbackI;
 
 public class RegistryHandler {
     public static final DeferredRegister<Item> ITEM = DeferredRegister.create(ForgeRegistries.ITEMS, Whfo.MODID);
@@ -18,4 +18,6 @@ public class RegistryHandler {
             new SozanasSword());
     public static final RegistryObject<Item> HIEMS_SWORD = ITEM.register("hiems_sword", ()->
             new HiemsSword());
+    public static final RegistryObject<Item> EMERALD_SWORD = ITEM.register("emerald_sword", ()->
+            new EmeraldSword());
 }
