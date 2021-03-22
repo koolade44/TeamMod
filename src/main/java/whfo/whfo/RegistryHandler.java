@@ -20,4 +20,6 @@ public class RegistryHandler {
             new HiemsSword());
     public static final RegistryObject<Item> EMERALD_SWORD = ITEM.register("emerald_sword", ()->
             new EmeraldSword());
+    public static final RegistryObject<Item> EMERALD_AXE = ITEM.register("emerald_axe", ()->
+            new EmeraldAxe());
 }

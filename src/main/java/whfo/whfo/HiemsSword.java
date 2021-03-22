@@ -7,6 +7,9 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.Potion;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class HiemsSword extends SwordItem {
     public HiemsSword() {
         super(new IItemTier() {
@@ -44,7 +47,14 @@ public class HiemsSword extends SwordItem {
 
     @Override
     public boolean hitEntity(ItemStack item, LivingEntity target, LivingEntity attacker) {
-        target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 60, 10));
+        target.canUpdate(false);
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                target.canUpdate(true);
+            }
+        }, 1000 * 3);
         return true;
     }
 }

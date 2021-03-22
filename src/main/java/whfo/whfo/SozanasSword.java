@@ -1,7 +1,5 @@
 package whfo.whfo;
 
-import net.minecraft.command.ISuggestionProvider;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -10,12 +8,7 @@ import net.minecraft.item.*;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.vector.Vector3f;
 import net.minecraft.world.World;
-
-import java.util.Vector;
 
 public class SozanasSword extends SwordItem {
     public SozanasSword() {
@@ -56,14 +49,5 @@ public class SozanasSword extends SwordItem {
     public boolean hitEntity(ItemStack item, LivingEntity target, LivingEntity attacker) {
         target.setFire(10);
         return true;
-    }
-
-    //code is incomplete and may not work for stability comment it out
-
-    @Override
-    public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity player, Hand hand) {
-        FireballEntity fb = new FireballEntity(EntityType.FIREBALL, world);
-        fb.setMotion(player.getLookVec());
-        return super.onItemRightClick(world, player, hand);
     }
 }
