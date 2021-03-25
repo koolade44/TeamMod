@@ -1,3 +1,4 @@
+<a href="https://www.curseforge.com/minecraft/mc-mods/when-hell-froze-over-whfo" target="_blank"><img src="https://github.com/koolade44/WHFO/blob/main/textures/logo.jpeg" height=128 width=128 alt="Click to go to curse page" title="Click to go to CurseForge page"></a><br>
 # When Hell Freezes Over (WHFO)
 ### Please Read the licsence. You are allowed to use this in your modpack or youtube video\*. You are not allowed to redistribute or tamper with it. (You can download the code and make edits FOR PERSONAL USE ONLY)
 <br><br>
