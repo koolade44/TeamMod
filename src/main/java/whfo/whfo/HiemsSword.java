@@ -47,6 +47,7 @@ public class HiemsSword extends SwordItem {
 
     @Override
     public boolean hitEntity(ItemStack item, LivingEntity target, LivingEntity attacker) {
+        target.setMotion(0, 0, 0);
         target.canUpdate(false);
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
