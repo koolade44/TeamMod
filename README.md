@@ -16,5 +16,6 @@ Conootes - Item Textures<br>
 Developers
 -------------------------------------
 Koolade446 - Lead developer <br><br><br>
-#### Bug Reports: https://docs.google.com/forms/d/e/1FAIpQLSfaWqKzZphdxfLsydDqYQBLT39D1LpGdm8ILT-_XB7vEpRleg/viewform?usp=sf_link <br><br>
+#### Bug Reports
+fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaWqKzZphdxfLsydDqYQBLT39D1LpGdm8ILT-_XB7vEpRleg/viewform?usp=sf_link">This Form</a> <br><br>
 \*If you use this in a youtube video please give credit to the above
