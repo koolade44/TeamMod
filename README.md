@@ -4,7 +4,7 @@
 <br><br>
 If you are not fermilliar with GitHub you can access the source code by clicking the dropdown in the top left that says "main" and selecting "master"<br><br>
 ### Download at curseforge (Downloads are NOT available anywhere else)
-comming soon<br><br>
+<a href="https://www.curseforge.com/minecraft/mc-mods/when-hell-froze-over-whfo" title="Go to CurseForge page"><img src="https://github.com/koolade44/WHFO/blob/main/textures/CurseLogo.png"></a><br><br>
 ## Meet The team:
 
 Art Crew
