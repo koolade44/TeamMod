@@ -57,7 +57,7 @@ public class FrozenNetheriteLongSword extends SwordItem {
                 target.setMotion(0, 0, 0);
                 target.setHeadRotation(target.getRotationYawHead(), 0);
             }
-        }, 0 , 0);
+        }, 0 , 1);
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
