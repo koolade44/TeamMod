@@ -5,5 +5,7 @@
   "item.whfo.emerald_axe": "Emerald Axe",
   "block.whfo.ice_stone_ore": "Ice Stone Ore",
   "item.whfo.ice_stone_ore": "Ice Stone Ore",
-  "item.whfo.ice_stone": "Ice Stone"
+  "item.whfo.ice_stone": "Ice Stone",
+  "item.whfo.frozen_netherite_long_sword": "Frozen Netherite Longsword",
+  "itemGroup.whfo_spartan_weapons": "Spartan Weaponry: WHFO"
 }

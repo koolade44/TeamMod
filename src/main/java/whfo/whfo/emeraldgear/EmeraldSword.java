@@ -1,4 +1,4 @@
-package whfo.whfo;
+package whfo.whfo.emeraldgear;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -47,7 +47,7 @@ public class EmeraldSword extends SwordItem {
     }
 
     @Override
-    public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean isSelected) { ;
+    public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean isSelected) {
         if (EnchantmentHelper.getEnchantments(stack).get(Enchantments.LOOTING) == null) {
             stack.addEnchantment(Enchantments.LOOTING, 5);
         }

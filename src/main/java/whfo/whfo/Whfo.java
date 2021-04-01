@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import whfo.whfo.spartanweaponryintegration.SWIntegrationMain;
 
 import java.util.stream.Collectors;
 
@@ -40,6 +41,7 @@ public class Whfo {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         RegistryHandler.init();
+        SWIntegrationMain.init();
     }
 
     private void setup(final FMLCommonSetupEvent event) {

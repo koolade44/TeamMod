@@ -1,14 +1,18 @@
-package whfo.whfo;
+package whfo.whfo.spartanweaponryintegration;
 
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.item.*;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.crafting.Ingredient;
+import whfo.whfo.FrozenEffect;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class HiemsSword extends SwordItem {
-    public HiemsSword() {
+public class FrozenNetheriteLongSword extends SwordItem {
+    public FrozenNetheriteLongSword() {
         super(new IItemTier() {
             @Override
             public int getMaxUses() {
@@ -22,12 +26,12 @@ public class HiemsSword extends SwordItem {
 
             @Override
             public float getAttackDamage() {
-                return 10;
+                return 9;
             }
 
             @Override
             public int getHarvestLevel() {
-                return 4;
+                return 5;
             }
 
             @Override
@@ -39,7 +43,8 @@ public class HiemsSword extends SwordItem {
             public Ingredient getRepairMaterial() {
                 return null;
             }
-        }, 2, 0, new Item.Properties().group(ItemGroup.COMBAT));
+
+        }, 0, -3, new Item.Properties().group(new SWIItemGroup()));
     }
 
     @Override

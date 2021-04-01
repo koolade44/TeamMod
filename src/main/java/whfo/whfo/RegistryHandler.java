@@ -4,16 +4,18 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import whfo.whfo.emeraldgear.EmeraldAxe;
+import whfo.whfo.emeraldgear.EmeraldHoe;
+import whfo.whfo.emeraldgear.EmeraldPickaxe;
+import whfo.whfo.emeraldgear.EmeraldSword;
 
 public class RegistryHandler {
     public static final DeferredRegister<Item> ITEM = DeferredRegister.create(ForgeRegistries.ITEMS, Whfo.MODID);
@@ -48,4 +50,8 @@ public class RegistryHandler {
             ));
     public static final RegistryObject<Item> ICE_STONE = ITEM.register("ice_stone", ()->
             new IceStone());
+    public static final RegistryObject<Item> EMERALD_PICKAXE = ITEM.register("emerald_pickaxe", ()->
+            new EmeraldPickaxe());
+    public static final  RegistryObject<Item> EMERALD_HOE = ITEM.register("emerald_hoe", ()->
+            new EmeraldHoe());
 }

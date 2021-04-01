@@ -1,4 +1,4 @@
-package whfo.whfo;
+package whfo.whfo.emeraldgear;
 
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
@@ -7,22 +7,22 @@ import net.minecraft.item.*;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.world.World;
 
-public class EmeraldAxe extends AxeItem {
-    public EmeraldAxe() {
+public class EmeraldPickaxe extends PickaxeItem {
+    public EmeraldPickaxe() {
         super(new IItemTier() {
             @Override
             public int getMaxUses() {
-                return 2400;
+                return 2500;
             }
 
             @Override
             public float getEfficiency() {
-                return 6;
+                return 10;
             }
 
             @Override
             public float getAttackDamage() {
-                return 9;
+                return 5;
             }
 
             @Override
@@ -39,14 +39,14 @@ public class EmeraldAxe extends AxeItem {
             public Ingredient getRepairMaterial() {
                 return null;
             }
-        }, 0, -3, new Item.Properties().group(ItemGroup.TOOLS));
+        }, 0, 1, new Item.Properties().group(ItemGroup.TOOLS));
     }
 
     @Override
-    public void inventoryTick(ItemStack stack, World world, Entity player, int slot, boolean isSelected) {
-        if (EnchantmentHelper.getEnchantments(stack).get(Enchantments.SILK_TOUCH) == null) {
-            stack.addEnchantment(Enchantments.SILK_TOUCH, 5);
+    public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean isSelected) {
+        if (EnchantmentHelper.getEnchantments(stack).get(Enchantments.LOOTING) == null) {
+            stack.addEnchantment(Enchantments.LOOTING, 5);
         }
-        super.inventoryTick(stack, world, player, slot, isSelected);
+        super.inventoryTick(stack, world, entity, slot, isSelected);
     }
 }
